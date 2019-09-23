@@ -25,4 +25,15 @@ public class CalculatorTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void shouldReturnSixWhenGivenAnArray() {
+        Calculator calculator = new Calculator();
+        int[] items = new int[] {1, 2, 3};
+        int expected = 6;
+
+        int actual = calculator.sum(items);
+
+        assertEquals(expected, actual);
+    }
 }
