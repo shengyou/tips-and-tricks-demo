@@ -15,4 +15,14 @@ public class CalculatorTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void shouldReturnZeoWhenOneSubOne() {
+        Calculator calculator = new Calculator();
+        int expected = 0;
+
+        int actual = calculator.sub(1, 1);
+
+        assertEquals(expected, actual);
+    }
 }
