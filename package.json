@@ -1,0 +1,19 @@
+{
+  "name": "frontend-powerpack",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shengyou Fan",
+    "email": "shengyou.fan@jetbrains.com"
+  },
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=development --progress --hide-modules"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.2",
+    "popper.js": "^1.15.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
